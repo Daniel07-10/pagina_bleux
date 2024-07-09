@@ -123,29 +123,35 @@ main{
     height: 300px;
 }
 
+.section3{
+    width: 100%;
+    height: auto;
+}
 
 .imagen-laptop{
-    width: 380px;
+    width: 420px;
     height: 260px;
 }
 
 .title-section3{
     color: #F41486;
     text-align: center;
-    font-size: 50px;
-    margin-top: 30px;
-    margin-bottom: 70px;
+    font-size: 60px;
+    margin-top: 35px;
+    margin-bottom: 100px;
     
 }
 .separar-elementos{
     display: flex;
-    justify-content: space-around;
-    margin: 0px 300px 0px 350px;
+    justify-content: center;
+    gap: 100px;
+    
 
 }
 .right-elements{
     display: flex;
     flex-direction: column;
+   
     
 }
 
@@ -172,5 +178,10 @@ span{
     list-style: none;
 }
 
+.section4{
+    margin-top: 70px;
+    background-color: #1E172F;
+    height: 1000px;
+}
 
 
