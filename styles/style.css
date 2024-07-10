@@ -171,7 +171,7 @@ main{
     color: #ff2596;
     margin-bottom: 10px;
 }
-span{
+#simbolo{
     color: #F53195;
 }
 .chulito{
@@ -183,5 +183,66 @@ span{
     background-color: #1E172F;
     height: 1000px;
 }
+
+.titulo-principal{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.parrafo1{
+    display: flex;
+    color: white;
+    width: 800px;
+    margin-left: 500px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.contenedores{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 140px 0px 140px;
+}
+.div1{
+    
+    text-align: center;
+
+    background-color: white;
+    width: 450px;
+    border-radius: 5px;
+
+}
+
+.titulo-div{
+    color:#F41486 ;
+}
+
+.div2{
+    background-color: white;
+    width: 450px;
+    border-radius: 5px;
+}
+.div3{
+    background-color: white;
+    width: 450px;
+    border-radius: 5px;
+}
+
+.contenedores *{
+    margin-top: 18px;
+}
+.precio{
+    color: black;
+    font-size: 50px;
+}
+
+.div1-1{
+    background-color: #F5F5F5;
+}
+
+
 
 
