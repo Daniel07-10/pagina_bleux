@@ -49,8 +49,6 @@ main{
     display: flex;
     flex-direction: column;
     margin-left: 335px;
-    
-
 }
 
 .section1-principal{
@@ -165,7 +163,7 @@ main{
 }
 
 .right-elements p{
-    width: 400px;
+    width: 300px;
     margin-bottom: 25px;
 }
 
@@ -198,16 +196,17 @@ main{
 .parrafo1{
     display: flex;
     color: white;
-    width: 800px;
-    margin-left: 500px;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
     margin-bottom: 60px;
     text-align: center;
 }
 
 .contenedores{
     display: flex;
-    justify-content: space-between;
-    margin: 0px 250px 0px 250px;
+    justify-content: center;
+    gap: 50px;
 }
 .contenedores *{
     margin-top: 15px;
@@ -219,10 +218,37 @@ main{
     border-radius: 5px;
 }
 .div1-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #F5F5F5;
     height: 80px;
-    align-items: center;
+    
 }
+
+
+
+.pesos{
+    font-size: 35px;
+    margin-bottom: 10px;
+    
+}
+.precio{
+    font-size: 45px;
+}
+.texto-tiempo{
+    margin-bottom: 22px;
+    margin-left: 8px;
+    font-size: 17px;
+}
+.texto-tiempo2{
+    margin-bottom: 22px;
+    margin-left: 8px;
+    font-size: 17px;
+    width: 75px;
+}
+
+
 .acomodar-lista{
     display: flex;
     justify-content: space-around;
@@ -309,18 +335,79 @@ main{
 }
 
 
-.precio{
-    color: black;
-    font-size: 50px;
-}
+
 
 
 footer{
     display: flex;
     align-items: center;
-
     height: 100px;
 }
 
+.section-footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
 
+.div-logos{
+  display: flex;
+  justify-content: space-between; 
+  gap: 30px;
+}
+
+
+
+@media (max-width: 1280px){
+    .div1-section{
+        margin-left: 150px;
+    }
+    .parrafo1{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .contenedores{
+        margin-left: 8px;
+        gap: 10px;
+    }
+    .div1,.div3{
+        width: 280px;
+        
+    }
+    .div2{
+        width: 300px;
+    }
+    .texto{
+        margin-right: 50px;
+    }
+    .section4{
+        height: 1150px;
+    }
+}
+
+
+@media (max-width: 921px){
+    .div1-section{
+        margin-left: 80px;
+    }
+    .div1,.div2,.div3{
+        width: 200px;
+    }
+    .texto{
+        margin-right: 60px;
+    }
+    .section4{
+        height: 1200px;
+    }
+    .right-elements p{
+        width: 250px;
+        margin-bottom: 25px;
+    }
+    
+}
+
+@media (max-width: 769px){
+
+}
 
