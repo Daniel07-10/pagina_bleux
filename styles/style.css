@@ -30,7 +30,7 @@ a:hover{
 
 
 
-#boton_comprar{
+#boton_descargar{
     background-image: linear-gradient(to right,#7A40CC, #0E73C8);
     border-radius: 5px;
     width: 90px;
@@ -125,7 +125,9 @@ main{
 
 .section3{
     width: 100%;
-    height: auto;
+    height: 550px;
+    background-color: #F1F2F7;
+    
 }
 
 .imagen-laptop{
@@ -173,15 +175,16 @@ main{
 }
 #simbolo{
     color: #F53195;
+    font-weight: bold;
 }
 .chulito{
     list-style: none;
 }
 
 .section4{
-    margin-top: 70px;
+    
     background-color: #1E172F;
-    height: 1000px;
+    height: 1100px;
 }
 
 .titulo-principal{
@@ -204,45 +207,120 @@ main{
 .contenedores{
     display: flex;
     justify-content: space-between;
-    margin: 0px 140px 0px 140px;
+    margin: 0px 250px 0px 250px;
+}
+.contenedores *{
+    margin-top: 15px;
 }
 .div1{
-    
     text-align: center;
-
     background-color: white;
-    width: 450px;
+    width: 400px;
     border-radius: 5px;
-
 }
-
+.div1-1{
+    background-color: #F5F5F5;
+    height: 80px;
+    align-items: center;
+}
+.acomodar-lista{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2px;
+}
+.texto{
+    list-style: none;
+    margin-right: 100px;
+    font-size: 17px;
+    
+}
 .titulo-div{
     color:#F41486 ;
 }
 
-.div2{
-    background-color: white;
-    width: 450px;
+#simbolo1{
+    display: flex;
+    
+    color: #ff0586;
+    font-weight: bold;
+
+}
+#simbolo2{
+    display: flex;
+    font-weight: bold;
+}
+
+.parrafo2{
+    margin: 45px 55px 0px 55px; 
+}
+
+.div1-2{
+    background-color: #F4F4F4;
+    height: 80px;
+    margin-top: 30px;
     border-radius: 5px;
 }
-.div3{
+.div1-2 button{
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,#EB66AB, #F41587);
+    font-size: 18px;
+    color: white;
+    border-color:#EB66AB ;
+}
+
+.div2{
     background-color: white;
-    width: 450px;
+    width: 400px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.titulo-div2{
+    font-weight: bold;
+}
+
+.boton-div2{
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: #2E2550;
+    font-size: 18px;
+    color: white;
+    border-color:#2E2550 ;
+}
+
+.div2-2{
+    background-color: #F4F4F4;
+    height: 80px;
+    margin-top: 30px;
     border-radius: 5px;
 }
 
-.contenedores *{
-    margin-top: 18px;
+
+
+.div3{
+    background-color: white;
+    width: 400px;
+    border-radius: 5px;
+    text-align: center;
 }
+
+
 .precio{
     color: black;
     font-size: 50px;
 }
 
-.div1-1{
-    background-color: #F5F5F5;
-}
 
+footer{
+    display: flex;
+    align-items: center;
+
+    height: 100px;
+}
 
 
 
