@@ -571,7 +571,9 @@ footer{
     .section3{
         height: 560px;
     }
-    
+    .texto{
+        margin-bottom: 16px;
+    }
     
 
 }
